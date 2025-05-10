@@ -4,6 +4,14 @@ The goal of this project is to demonstrate how data science tools can be used to
 data related questions. Based on a question the data should be analyzed and then 
 a fitting tool should be used to answer the question with additional visualization to explain the findings.
 
+## Files in the Repository
+- `WorldbankData.ipynb`: Jupyter notebook containing the full analysis of country development indicators.
+
+- `worldbank_development.csv`: Dataset from World Bank containing various development metrics for countries worldwide.
+
+- `requirements.txt`: List of Python packages required to run the analysis.
+
+
 First install the dependencies:
 ````shell
 python -m venv .venv
@@ -30,3 +38,7 @@ Each question is tried to answer using a different approach from the course:
 - question 1 => Linear Regression
 - question 2 => Shaply values
 - question 3 => Decision Tree Classifier and Confusion Matrix
+
+## Acknowledgments
+- World Bank for providing the open data used in this analysis.
+- Scikit-learn, XGBoost, and SHAP libraries for the analytical tools.
