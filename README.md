@@ -1,5 +1,9 @@
 # Country Development Statistics
 
+The goal of this project is to demonstrate how data science tools can be used to answer
+data related questions. Based on a question the data should be analyzed and then 
+a fitting tool should be used to answer the question with additional visualization to explain the findings.
+
 First install the dependencies:
 ````shell
 python -m venv .venv
